@@ -64,12 +64,15 @@ for eg.
 
   #  How to flash rom with TWRP?
 
-Before doing the following you should be sure that your bootloader is unlocked.
-Download twrp-TheStrechh-RX.img from [HERE](https://sourceforge.net/projects/poco-x5-pro-roms/upload/Twrp/), and platform tools from HERE [Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) and [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)
-Extract platform tools in C:\  and copy boot.img in folder.
-Open terminal (CMD) in local folder and paste this command fastboot boot twrp-TheStrechh-R2.img , then click enter.
-Device boot in TWRP interface go to Advance and select Flash current TWRP and confirm.
-Done, you have TWRP installed fine, now can reboot system.
+- Before doing the following you should be sure that your bootloader is unlocked.
+
+- Download twrp-TheStrechh-RX.img from [HERE](https://sourceforge.net/projects/poco-x5-pro-roms/upload/Twrp/), and platform tools from HERE [Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) and [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)
+
+- Extract platform tools in C:\  and copy boot.img in folder.
+- Open terminal (CMD) in local folder and paste this command fastboot boot twrp-TheStrechh-R2.img , then click enter.
+- Device boot in TWRP interface go to Advance and select Flash current TWRP and confirm.
+   Done, you have TWRP installed fine, now can reboot system.
+
 First option
 
 	Download ROM, then go to Install -> select your ROM.zip -> Confirm.
