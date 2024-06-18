@@ -6,11 +6,11 @@
 
 3.) Reboot to fastboot  ( press  both power_button_key + vol_down_key ) and follow the steps as given below.
 
-	fastboot flash boot boot.img
-
 	fastboot flash vendor_boot  vendor_boot.img
 
 	fastboot flash dtbo dtbo.img 
+
+  	fastboot flash boot boot.img
 
 	fastboot reboot recovery
 
