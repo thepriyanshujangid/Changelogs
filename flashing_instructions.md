@@ -53,7 +53,10 @@ If your device does not change slot automatically, you can do it manually just f
 
  Try using sudo $(which fastboot) instead of  fastboot 
 
- for eg. 
+for eg.
+
 	sudo $(which fastboot) devices
+	
  	sudo $(which fastboot) flash vendor_boot  vendor_boot.img
+  
   and so on.
