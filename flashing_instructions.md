@@ -48,3 +48,12 @@ If your device does not change slot automatically, you can do it manually just f
 	fastboot --set-active=b ( for eg. your current active slot is A so you would want your current slot to set be on B )
 
 	fastboot reboot
+
+ # Linux fastboot permission issue 
+
+ Try using sudo $(which fastboot) instead of  fastboot 
+
+ for eg. 
+	sudo $(which fastboot) devices
+ 	sudo $(which fastboot) flash vendor_boot  vendor_boot.img
+  and so on.
